@@ -1,0 +1,261 @@
+.text-primary {
+    color: rgb(236, 77, 103)
+ 
+}
+ 
+.fix-flex {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+ 
+}
+.fix-flex2{
+    display: flex;
+}
+ 
+ 
+.btn-primary {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+svg{
+    margin-left: 5px;
+}
+ 
+ 
+nav {
+    display: flex;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ 
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.banner-content {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+ 
+}
+ 
+.banner-greeting {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+ 
+.banner-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+ 
+}
+ 
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+ 
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+ 
+nav a {
+    text-decoration: none;
+}
+ 
+.play-football {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: lowercase;
+    line-height: 1;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+ 
+.sign {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.sign2{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.game-title{
+    padding-top: 50px;
+}
+.game-font{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+text-align: center;
+}
+.game-title{
+    background-clip: text;
+-webkit-background-clip: text;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.game-description{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.game-container {
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.text-size{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+text-align: center;
+margin-top: 2px;
+margin-right: 60%;
+}
+.text-font{
+    text-align: center;
+    justify-content: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+margin-right: 60%;
+ 
+}
+.game{
+    overflow: hidden;
+    display: block;
+}
+.game img{
+    float: right;
+    margin-left: 10px;
+}
+.tom{
+    width: 318.5px;
+height: 365.083px;
+flex-shrink: 0;
+display: flex;
+margin-right: 390px;
+float: right;
+position: relative;
+bottom: 250px;
+}
+.game-type{
+    width: 140px;
+    display: flex;
+}
+.game-type p{
+    display: inline;
+}
+.main-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.top-games{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 190px;
+    display: block;
+}
+.text-primary{
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-title{
+    padding-top:70px;
+    background: #0B0223;
+     height: 500px;
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color:#FFFFFF
+}
+.footer-description{
+    
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+}
+.footer-padding{
+    padding-top: 70px;
+}
+.main-footer{
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+}
